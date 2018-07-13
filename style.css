@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a.siteName {
+    padding: 25px 150px;
+    font-size: 25px;
+}
+
+li a.menu {
+    padding: 25px 15px;
+    font-size: 20px;
+    color: #cccccc;
+}
+
+li a:hover.siteName {
+    color: #f6546a;
+}
+
+li a:hover.menu {
+    color: white;
+}
