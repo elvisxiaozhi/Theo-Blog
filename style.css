@@ -78,7 +78,30 @@ li span:hover {
     margin-left: 50px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+/* Banner */ 
+.banner {
+  background: #3BB9FF;
+  margin-top: 79px;
+}
+
+.banner h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 200px 50px 30px 50px;
+}
+
+.banner button {
+  background: #3BB9FF;
+  padding: 15px 30px;
+  outline: 0;
+  border: 2px solid #D8D8D8; 
+  color: white;
+  font-size: 20px;
+  margin: 10px 680px 130px 680px;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background-color: #5CB3FF;
+}
