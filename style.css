@@ -83,6 +83,10 @@ li span:hover {
   background: #3BB9FF;
   margin-top: 79px;
   text-align: center;
+  -webkit-animation-name: banner_anim; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: banner_anim;
+  animation-duration: 3s;
 }
 
 .banner h1 {
@@ -100,8 +104,30 @@ li span:hover {
   font-size: 20px;
   margin: 10px 10px 100px 10px;
   cursor: pointer;
+  -webkit-animation-name: banner_anim; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: banner_anim;
+  animation-duration: 3s;
 }
 
 .banner button:hover {
   background-color: #5CB3FF;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes banner_anim {
+    0% {background-color: #FF4C33;}
+    25% {background-color: #F9FF33;}
+    50% {background-color: #7BFF33;}
+    75% {background-color: #33FF92;}
+    100% {background-color: #33FFDF;}   
+}
+
+/* Standard syntax */
+@keyframes banner_anim {
+    0% {background-color: #FF4C33;}
+    25% {background-color: #F9FF33;}
+    50% {background-color: #7BFF33;}
+    75% {background-color: #33FF92;}
+    100% {background-color: #33FFDF;}   
 }
