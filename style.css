@@ -86,13 +86,16 @@ li span:hover {
   -webkit-animation-name: banner_anim; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
   animation-name: banner_anim;
-  animation-duration: 3s;
+  animation-duration: 8s;
 }
 
 .banner h1 {
   font-size: 50px;
   color: white;
   padding: 180px 50px 50px 50px;
+  font-family: 'Waiting for the Sunrise', cursive; 
+  letter-spacing: 6px; 
+  font-weight: bold;
 }
 
 .banner button {
@@ -107,7 +110,7 @@ li span:hover {
   -webkit-animation-name: banner_anim; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
   animation-name: banner_anim;
-  animation-duration: 3s;
+  animation-duration: 8s;
 }
 
 .banner button:hover {
