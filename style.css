@@ -82,13 +82,13 @@ li span:hover {
 .banner {
   background: #3BB9FF;
   margin-top: 79px;
+  text-align: center;
 }
 
 .banner h1 {
-  text-align: center;
   font-size: 50px;
   color: white;
-  padding: 200px 50px 30px 50px;
+  padding: 180px 50px 50px 50px;
 }
 
 .banner button {
@@ -98,7 +98,7 @@ li span:hover {
   border: 2px solid #D8D8D8; 
   color: white;
   font-size: 20px;
-  margin: 10px 680px 130px 680px;
+  margin: 10px 10px 100px 10px;
   cursor: pointer;
 }
 
