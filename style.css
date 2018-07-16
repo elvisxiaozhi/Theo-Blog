@@ -134,3 +134,23 @@ li span:hover {
     75% {background-color: #33FF92;}
     100% {background-color: #33FFDF;}   
 }
+
+.article {
+  text-align: center;
+}
+
+.topic {
+  background: #800000;
+  width: 50%;
+  float: left;
+  padding: 310px 0px;
+}
+
+.desc {
+  background: white;
+  position: relative;
+  width: 50%;
+  float: right;
+  padding: 310px 0px;
+}
+
