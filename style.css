@@ -1,3 +1,12 @@
+@font-face {
+	font-family: 'text_font';
+	src: url('fonts/IckyTicketMono.ttf');
+}
+@font-face {
+	font-family: 'title_font';
+	src: url('fonts/Romanica.ttf');
+}
+
 .index_pic {
 	display: block;
 	margin-top: 9%;
@@ -25,13 +34,22 @@
 
 .introduction {
 	text-align: center;
-	font-family: Tw Cen MT;
+	font-family: title_font;
 	margin-top: 70px;
 	color: #333333;
 }
 
+#about_me {
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	color: #404040;
+	font-family: text_font;
+	font-size: 14px;
+}
+
 #footer {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     width: 100%;
     text-align: center;
