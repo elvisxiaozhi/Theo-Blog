@@ -1,1 +1,1 @@
-# Theo-Blog
+# Personal blog
