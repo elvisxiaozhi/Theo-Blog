@@ -10,3 +10,7 @@ function myFunction(index) {
    		}
    	}
 }
+
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
