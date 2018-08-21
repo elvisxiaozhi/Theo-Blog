@@ -17,6 +17,18 @@ function setCookie(name, value, exdays) {
     var expires = "expires=" + date.toUTCString();
     document.cookie = name + "=" + value + ";" + expires + ";path=/";
     alert(document.cookie);
+    redirect(value);
+}
+
+function redirect(index) {
+	switch(index) {
+		case 0:
+			window.location.replace("index.html");
+			break;
+		case 5:
+			window.location.replace("contact.html");
+			break;
+	}
 }
 
 function readCookie() {
