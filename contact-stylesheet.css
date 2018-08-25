@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'text_font';
+	src: url('fonts/IckyTicketMono.ttf');
+}
+@font-face {
+	font-family: 'title_font';
+	src: url('fonts/Romanica.ttf');
+}
+
+#contact-form {
+	text-align: center;
+}
+
+#contact-form h3 {
+	font-family: title_font;
+	color: #333333;
+}

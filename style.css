@@ -16,7 +16,7 @@
 
 #navigation-bar {
     display: block;
-	margin-top: 70px;
+	margin: 70px 0px;
 	text-align: center;
 }
 
@@ -35,7 +35,6 @@
 .introduction {
 	text-align: center;
 	font-family: title_font;
-	margin-top: 70px;
 	color: #333333;
 }
 
