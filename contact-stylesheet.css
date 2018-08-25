@@ -15,3 +15,14 @@
 	font-family: title_font;
 	color: #333333;
 }
+
+#contact-form form {
+	display: inline-block;
+	text-align: left;
+	font-family: text_font;
+	color: #404040;
+}
+
+#contact-form p {
+	color: red;
+}
